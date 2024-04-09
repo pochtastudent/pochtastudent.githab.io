@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 40px;
+        background-color: bisque;
+      }
+
+      div.polaroid {
+        width: 284px;
+        padding: 10px 10px 20px 10px;
+        text-align: center;
+        font-family: fantasy;
+        border: 1px solid lightslategray;
+        background-color: white;
+        box-shadow: 10px 10px 5px gray;
+      }
+
+      div.rotate_right {
+        float: left;
+        transform: rotate(10deg);
+      }
+
+      div.rotate_left {
+        float: left;
+        transform: rotate(-10deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="polaroid rotate_right">
+      <img src="dvorik.jpg" alt="Московский дворик" width="284" height="213" />
+      <p>Московский дворик</p>
+    </div>
+
+    <div class="polaroid rotate_left">
+      <img src="dvoyka.jpg" alt="Опять двойка" width="284" height="213" />
+      <p>Опять двойка</p>
+    </div>
+  </body>
+</html>
